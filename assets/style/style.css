@@ -1,3 +1,12 @@
 .bg-tertiary {
     background-color: #c8e6f8
 }
+
+.card:hover {
+    background-color: black;
+}
+
+.card:hover h4 {
+    background-color: white;
+    color: black;
+}
