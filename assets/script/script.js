@@ -35,6 +35,10 @@ var generateMovies = function() {
     .addClass("card-header bg-dark text-light text-center")
     .text(moviesObject[i].title)
     .appendTo(cardDiv);
+    var moviePoster = $("<img>")
+    .addClass("rounded mx-auto d-block m-3")
+    .attr({"src":moviesObject[i].image, "height":250, "width":175 })
+    .appendTo(cardDiv);
     }
 
     
